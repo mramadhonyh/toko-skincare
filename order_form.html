@@ -1,0 +1,50 @@
+<html>
+   <head>
+        <title>Toko Skincare</title>
+            <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   </head>
+
+   <body>
+        <div align="center">
+            <strong>
+                <font size="6" face="Courier New, Courier, mono">formulir belanjaan </font>
+            </strong>
+        </div>
+   <form name="form1" method="post" action="process_order.php">
+        <table width="58%" border="0" align="center">
+            <tr>
+                <td>Nama Lengkap</td>
+                <td><input name="nama" type="text" id="nama"></td>
+            </tr>
+        <tr>
+            <td>Alamat</td>
+            <td><input name="alamat" type="text" id="alamat"></td>
+        </tr>
+        <tr>
+            <td>E-Mail</td>
+            <td><input name="email" type="text" id="email"></td> </tr>
+        </tr>
+    <tr>
+        <td>Skincare</td>
+        <td><select name="skincare" id="skincare">
+            <option value="paket 1">paket 1 (Calysta Skin Care | Paket Whitening(Memutihkan / Mencerahkan Kulit))</option>
+            <option value="paket 2">paket 2 (EMINA MS. PIMPLE ACNE SOLUTION SERIE.)</option>
+            <option value="paket 2">paket 3 (Paket Skincare Emina.)</option>
+        </select></td>
+   </tr>
+
+   <tr>
+        <td>pesan yang ingin dimasukkan</td>
+        <td><textarea name="pesan" id="pesan"></textarea></td> </textarea>
+   </tr>
+
+   <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" name="Submit" value="Kirim"><input type="reset"name="Submit2" value="Batal"></td>
+   </tr>
+   </table>
+   </form>
+   <div align="center">
+    <strong><a href="process_order.php"></a></strong></div>
+   </body>
+   </html>
